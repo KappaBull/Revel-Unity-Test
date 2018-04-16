@@ -37,4 +37,4 @@ ExportedObj/
 
 # VScode Debug File
 debug
-.vscode/launch.json
+*/.vscode/launch.json
