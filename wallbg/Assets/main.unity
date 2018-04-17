@@ -218,7 +218,7 @@ Camera:
   m_GameObject: {fileID: 720700780}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -268,6 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206079980}
   - component: {fileID: 1206079979}
+  - component: {fileID: 1206079981}
   m_Layer: 0
   m_Name: JSControlManager
   m_TagString: Untagged
@@ -299,3 +300,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1206079981
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1206079978}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: b5db1a81b49bec241ab2ceb868c9dd44, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 3
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 1206079978}
+  - key: {fileID: 114710996600973608, guid: b5db1a81b49bec241ab2ceb868c9dd44, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
