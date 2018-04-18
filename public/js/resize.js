@@ -5,9 +5,6 @@ var timer = 0;
 function resize() {
     canvas.setAttribute('width', window.innerWidth);
     canvas.setAttribute('height', window.innerHeight);
-    canvas.zIndex = -20;
-    canvas.style.top = 0;
-    canvas.style.left = 0;
 }
 
 window.onload = function () {
