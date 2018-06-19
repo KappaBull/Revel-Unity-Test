@@ -546,8 +546,8 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Minimal
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLUseWasm: 0
-  webGLCompressionFormat: 1
+  webGLUseWasm: 1
+  webGLCompressionFormat: 2
   scriptingDefineSymbols: {}
   platformArchitecture: {}
   scriptingBackend: {}
